@@ -23,7 +23,8 @@ The site will be a single screen.
 - Side bar: Users can hit play and stop. Users can select a song. Links
 to About (modal) and Github.
 - Main screen: Once a song is selected, the song keys will be displayed
-on the screen for the user to follow.
+on the screen for the user to follow. The main screen will have falling
+dots that will randomly burst when keys are pressed.
 
 ![lullaby-wireframe](./lullaby.png)
 
