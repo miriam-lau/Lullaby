@@ -24,7 +24,8 @@ The site will be a single screen.
 to About (modal) and Github.
 - Main screen: Once a song is selected, the song keys will be displayed
 on the screen for the user to follow. The main screen will have falling
-dots that will randomly burst when keys are pressed.
+dots, and when a key is pressed, little star bursts will be interspersed
+between the falling dots.
 
 ![lullaby-wireframe](./lullaby.png)
 
