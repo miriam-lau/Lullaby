@@ -49,15 +49,17 @@ and after song selection, will display the notes on the display.
 
 
 ## Implementation Timeline
-Day 1: Setup and Start learning midi.js
-Install Node modules, setup up webpack, and install technologies. Create webpack.config.js as well as package.json. Write a basic entry file and create a skeleton for all Javascript files. Learn how to use midi.js.
+Day 1:
+- Install Node modules, setup up webpack, and install technologies. Create webpack.config.js as well as package.json.
+- Write a basic entry file and create a skeleton for all Javascript files.
+- Learn how to use midi.js.
 
-Day 2: Learn how to use midi.js and add User controls.
-Implement simulation of keys to music notes. Map common lullaby songs to keys.
-Create controls for the user to interact with the site.
+Day 2:
+- Implement simulation of keys to music notes. Map common lullaby songs to keys.
+- Create controls for the user to interact with the site.
 
-Day 3: User controls
-Finish testing UX for user controls. Learn to use anime.js
+Day 3:
+- Finish testing UX for user controls. Learn to use anime.js
 
-Day 4: Frontend styling
-Style the game, and add in animations with anime.js.
+Day 4:
+- Frontend styling: Style the game, and add in animations with anime.js.
