@@ -40,19 +40,24 @@ This project will include the following technologies:
 
 This project will include the following scripts:
 - main.js: this script will initiate a new play session and handle the logic for rendering elements in the DOM.
-- keys.js: this script will link all the keys to piano notes.
-- songs.js: this script will contain the songs mapped to the keys.
+- display.js: this script will show the display screen the user
+will interact with to play and stop a song.
+- keys.js: this script will link all the keys to piano notes using midi.js
+and will map the piano notes to computer keys.
+- songs.js: this script will contain the songs mapped to the computer keys,
+and after song selection, will display the notes on the display.
 
 
 ## Implementation Timeline
-Day 1: Setup
+Day 1: Setup and Start learning midi.js
 Install Node modules, setup up webpack, and install technologies. Create webpack.config.js as well as package.json. Write a basic entry file and create a skeleton for all Javascript files. Learn how to use midi.js.
 
-Day 2: Learn how to use midi.js
+Day 2: Learn how to use midi.js and add User controls.
 Implement simulation of keys to music notes. Map common lullaby songs to keys.
+Create controls for the user to interact with the site.
 
 Day 3: User controls
-Create controls for the user to interact with the site. Learn to use anime.js
+Finish testing UX for user controls. Learn to use anime.js
 
 Day 4: Frontend styling
 Style the game, and add in animations with anime.js.
