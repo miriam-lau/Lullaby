@@ -13,23 +13,32 @@
 
   <body>
     <script type="application/javascript" src="lib/bundle.js"></script>
-    <canvas></canvas>
-    <nav class="side-bar">
-      <div class="logo"></div>
+    <div class="container">
+      <div class="side-bar">
+        <div class="logo"></div>
+        <div class="play_stop"></div>
 
-      <div class="play_stop"></div>
+        <button value="1" onClick="display.showSong(this)" >Are You Sleeping?</button>
+        <br />
+        <button value="2" onClick="display.showSong(this)" >Baa Baa Black Sheep</button>
+        <br />
+        <button value="3" onClick="display.showSong(this)" >Baby Mine</button>
+        <br />
+        <button value="4" onClick="display.showSong(this)" >Brahm's Lullaby</button>
+        <br />
+        <button value="5" onClick="display.showSong(this)" >Hush Little Baby</button>
+        <br />
+        <button value="6" onClick="display.showSong(this)" >Rock-A-Bye Baby</button>
+        <br />
+        <button value="7" onClick="display.showSong(this)" >Somewhere Over The Rainbow</button>
+        <br />
+        <button value="8" onClick="display.showSong(this)" >Twinkle Twinkle Little Star</button>
+        <br />
 
-      <button value="1" onClick="display.showSong(this)" >Are You Sleeping?</button>
-      <button value="2" onClick="display.showSong(this)" >Baa Baa Black Sheep</button>
-      <button value="3" onClick="display.showSong(this)" >Baby Mine</button>
-      <button value="4" onClick="display.showSong(this)" >Brahm's Lullaby</button>
-      <button value="5" onClick="display.showSong(this)" >Hush Little Baby</button>
-      <button value="6" onClick="display.showSong(this)" >Rock-A-Bye Baby</button>
-      <button value="7" onClick="display.showSong(this)" >Somewhere Over The Rainbow</button>
-      <button value="8" onClick="display.showSong(this)" >Twinkle Twinkle Little Star</button>
-
-      <button onClick={}>Instructions</button>
-    </nav>
+        <button onClick={}>Instructions</button>
+      </div>
+      <canvas class="screen"></canvas>
+    </div>
   </body>
 </html>
 

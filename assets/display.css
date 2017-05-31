@@ -1,3 +1,16 @@
 canvas {
   background-color: lightgray;
 }
+
+.container {
+  display: flex;
+}
+
+.side-bar {
+  width: 400px;
+  max-width: 400px;
+}
+
+.screen {
+  flex-grow: 1;
+}
