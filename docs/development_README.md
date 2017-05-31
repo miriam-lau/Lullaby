@@ -39,27 +39,27 @@ This project will include the following technologies:
 - Module bundler: webpack
 
 This project will include the following scripts:
-- main.js: this script will initiate a new play session and handle the logic for rendering elements in the DOM.
+- lullaby.js: this script will initiate a new play session and handle the logic for rendering elements in the DOM.
 - display.js: this script will show the display screen the user
-will interact with to play and stop a song.
-- keys.js: this script will link all the keys to piano notes using midi.js
-and will map the piano notes to computer keys.
+will interact with to play a song.
+- keys.js: this script will map the piano key sounds to computer keys.
 - songs.js: this script will contain the songs mapped to the computer keys,
 and after song selection, will display the notes on the display.
+- animation.js: this script will create small animations that will show
+on the screen when a user presses a computer key.
 
 
 ## Implementation Timeline
 Day 1:
 - Install Node modules, setup up webpack, and install technologies. Create webpack.config.js as well as package.json.
 - Write a basic entry file and create a skeleton for all Javascript files.
-- Learn how to use midi.js.
 
 Day 2:
 - Implement simulation of keys to music notes. Map common lullaby songs to keys.
 - Create controls for the user to interact with the site.
 
 Day 3:
-- Finish testing UX for user controls. Learn to use anime.js
+- Finish testing UX for user controls. Learn to use anime.js.
 
 Day 4:
 - Frontend styling: Style the game, and add in animations with anime.js.
