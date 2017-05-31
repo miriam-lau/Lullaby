@@ -1,16 +1,111 @@
+html, form, div, label, body, h1, h2, h3, ul, li,
+table, tr, th, a, header, nav, span, button,
+footer, section, input, p, select, option {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  background: transparent;
+}
+
 canvas {
-  background-color: lightgray;
+  background-image: url("./images/milky_way.jpg");
+  background-size: 100% 100%;
 }
 
 .container {
   display: flex;
+  width: 100%;
+  height: auto;
+  border: 5px solid #002db3;
 }
 
 .side-bar {
-  width: 400px;
-  max-width: 400px;
+  max-width: 300px;
+  min-width: 300px;
 }
 
 .screen {
   flex-grow: 1;
 }
+
+.song-selection {
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.song-selection:hover {
+  background-color: #002db3;
+  color: white;
+  width: 100%;
+}
+
+.instruction-btn {
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  align-items: center;
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.instruction-btn:hover {
+  background-color: #002db3;
+  color: white;
+  width: 100%;
+}
+
+.c {
+  font-family: 'Short Stack', cursive;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+}
+
+.d {
+  font-family: 'Margarine', cursive;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+}
+
+.e {
+  font-family: 'Coming Soon', cursive;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+/*blue:	#002db3*/
+
+/*
+font-family: 'Coming Soon', cursive;
+font-family: 'Short Stack', cursive;
+font-family: 'Margarine', cursive;
+
+font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Gochi Hand', cursive;
+font-family: 'Annie Use Your Telescope', cursive;
+font-family: 'Fontdiner Swanky', cursive;
+font-family: 'Just Me Again Down Here', cursive;
+font-family: 'Mogra', cursive;
+font-family: 'Princess Sofia', cursive;
+font-family: 'Henny Penny', cursive;
+
+font-family: 'Roboto', sans-serif;*/
