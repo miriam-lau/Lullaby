@@ -39,14 +39,14 @@ This project will include the following technologies:
 - Module bundler: webpack
 
 This project will include the following scripts:
-- lullaby.js: this script will initiate a new play session and handle the logic for rendering elements in the DOM.
+- lullaby.js: this script will initiate a new play session and handle
+the logic for rendering elements in the DOM, and will create small
+animations that will show on the screen when a user presses a computer key.
 - display.js: this script will show the display screen the user
 will interact with to play a song.
 - keys.js: this script will map the piano key sounds to computer keys.
 - songs.js: this script will contain the songs mapped to the computer keys,
 and after song selection, will display the notes on the display.
-- animation.js: this script will create small animations that will show
-on the screen when a user presses a computer key.
 
 
 ## Implementation Timeline
