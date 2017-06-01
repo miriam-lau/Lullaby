@@ -81,6 +81,30 @@ canvas {
   align-items: center;
 }
 
+div#song-display {
+  position: absolute;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  top: 0;
+  left: 800px;
+  z-index: 1;
+  color: black;
+  width: 400px;
+  height: 500px;
+  /*align-content: center;*/
+  margin: auto;
+  /*opacity: 0;*/
+  transition: top 1s;
+}
+
+div#song-display.active {
+  top: 200px;
+  left: 800px;
+  z-index: 1;
+  opacity: 1;
+}
+
 .song-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
@@ -90,33 +114,33 @@ canvas {
   margin-top: 20px;
 }
 
-.song-notes {
-  position: absolute;
-  top: 200px;
-  left: 800px;
-  z-index: 1;
-  color: red;
-  align-content: center;
-}
-
 .song-letter {
   display: inline-block;
   font-family: 'Roboto', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 900;
-  color: yellow;
-  /*border: 5px solid red;*/
+  color: black;
   width: 20px;
   height: 20px;
   padding: 0 15px 0 15px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-align: center;
 }
 
 .song-letter1 {
   display: inline-block;;
-  border: 5px solid red;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.close-song-display {
+  align-self: flex-end;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
   width: 20px;
   height: 20px;
   padding: 10px;
