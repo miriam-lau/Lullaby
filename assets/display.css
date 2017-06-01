@@ -90,6 +90,39 @@ canvas {
   margin-top: 20px;
 }
 
+.song-notes {
+  position: absolute;
+  top: 200px;
+  left: 800px;
+  z-index: 1;
+  color: red;
+  align-content: center;
+}
+
+.song-letter {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: yellow;
+  /*border: 5px solid red;*/
+  width: 20px;
+  height: 20px;
+  padding: 0 15px 0 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.song-letter1 {
+  display: inline-block;;
+  border: 5px solid red;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  margin-left: 5px;
+}
+
 /*blue:	#002db3*/
 
 /*
