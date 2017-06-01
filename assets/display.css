@@ -50,62 +50,50 @@ canvas {
   width: 100%;
 }
 
-.instruction-btn {
-  cursor: pointer;
+.instructions {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
+  font-weight: 900;
+  align-items: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.instructions1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
   align-items: center;
   margin-top: 50px;
-  padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
   width: 100%;
   text-align: center;
 }
 
-.instruction-btn:hover {
-  background-color: #002db3;
-  color: white;
-  width: 100%;
+.keyboard-pic {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 90%;
+  align-items: center;
 }
 
-.c {
-  font-family: 'Short Stack', cursive;
+.song-title {
+  font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
-
-.d {
-  font-family: 'Margarine', cursive;
-  font-weight: 900;
-  font-size: 30px;
-  text-align: center;
-}
-
-.e {
-  font-family: 'Coming Soon', cursive;
-  font-weight: 900;
-  font-size: 30px;
-  text-align: center;
-}
-
 
 /*blue:	#002db3*/
 
 /*
 font-family: 'Coming Soon', cursive;
-font-family: 'Short Stack', cursive;
-font-family: 'Margarine', cursive;
 
-font-family: 'Love Ya Like A Sister', cursive;
-font-family: 'Gochi Hand', cursive;
-font-family: 'Annie Use Your Telescope', cursive;
-font-family: 'Fontdiner Swanky', cursive;
-font-family: 'Just Me Again Down Here', cursive;
-font-family: 'Mogra', cursive;
-font-family: 'Princess Sofia', cursive;
-font-family: 'Henny Penny', cursive;
 
 font-family: 'Roboto', sans-serif;*/

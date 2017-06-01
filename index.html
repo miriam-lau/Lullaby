@@ -7,20 +7,23 @@
     <script src="jquery.js"></script>
     <script src="ui.jquery.js"></script>
     <script src="http://jaysalvat.github.io/buzz/releases/latest/buzz.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Coming+Soon|Finger+Paint|Fontdiner+Swanky|Gochi+Hand|Handlee|Henny+Penny|Just+Me+Again+Down+Here|Love+Ya+Like+A+Sister|Margarine|Mogra|Princess+Sofia|Roboto|Short+Stack" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Coming+Soon|Margarine|Roboto|Short+Stack" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   </head>
 
   <body>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/1.0.0/anime.min.js'></script>
+    <script src="anime.min.js"></script>
     <script type="application/javascript" src="lib/bundle.js"></script>
 
     <div class="container">
       <div class="side-bar">
         <div class="logo"></div>
         <div class="song-container">
-          <h3 class="c">Songs</h3>
-          <h3 class="d">Songs</h3>
-          <h3 class="e">Songs</h3>
 
+          <h3 class="song-title">Songs</h3>
           <button class="song-selection" value="1" onClick="display.showSong(this)" >Are You Sleeping?</button>
           <br />
           <button class="song-selection" value="2" onClick="display.showSong(this)" >Baa Baa Black Sheep</button>
@@ -39,9 +42,16 @@
           <br />
         </div>
 
-        <button class="instruction-btn" onClick="">Instructions</button>
+        <section class="instructions1" onClick="">Instructions</section>
+        <img class="keyboard-pic" src="./assets/images/keyboard.png" />
+
+        <section class="instructions" onClick="">Right Hand Controls</section>
+        <img class="keyboard-pic" src="./assets/images/right_hand.png" />
+
+        <section class="instructions" onClick="">Left Hand Controls</section>
+        <img class="keyboard-pic" src="./assets/images/left_hand.png" />
       </div>
-      <canvas class="screen" id="c"></canvas>
+      <canvas class="canvas" id="canvas"></canvas>
     </div>
   </body>
 </html>
