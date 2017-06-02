@@ -1,4 +1,4 @@
-[Lullaby](index.html) is a personal project by Meiyen Lau.
+[Lullaby](https://miriam-lau.github.io/Javascript-Project/) is a personal project by Meiyen Lau.
 
 Lullaby is an interactive music site where users can play popular children's
 lullaby tunes using the computer keyboard.
