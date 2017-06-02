@@ -106,6 +106,14 @@ footer {
   align-self: center;
 }
 
+.linkedin {
+  width: 40px;
+  height: 40px;
+  padding-left: 30px;
+  cursor: pointer;
+  align-self: center;
+}
+
 .logo {
   position: absolute;
   top: 300px;
