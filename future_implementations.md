@@ -1,5 +1,6 @@
 # Future Implementations
 
+Additional features will include:
 - Users can start and stop the song.  
 - Key highlighting on the song page to direct the user on the timing to
 play a given note.

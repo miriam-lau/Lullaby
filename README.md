@@ -3,7 +3,7 @@
 Lullaby is an interactive music site where users can play popular children's
 lullaby tunes using the computer keyboard.
 
-![game page](./homepage.png)
+![game page](./gamepage.png)
 
 
 ## Features
@@ -12,7 +12,7 @@ lullaby tunes using the computer keyboard.
 - Each song will have a song page showing the sequence of computer keys to play the chosen song.
 - Each key press will trigger a star burst animation shown randomly on the screen.
 
-![song page](./pantry.png)
+![song page](./songpage.png)
 
 
 ## Project Design
@@ -21,9 +21,9 @@ during the development process.
 
 
 ## Technology
-Lullaby is a website created using JavaScript, HTML adn CSS. Additional frontend technologies include:
-- Buzz JavaScript Library:
-- Anime.js: Animations were created using anime.js and the star burst was modified from Alex Zaworski (http://codepen.io/alexzaworski/pen/mEkvAG).
+Lullaby is a website created using JavaScript, HTML and CSS. Additional frontend technologies include:
+- Buzz: A JavaScript library for playing sounds on the website.
+- Anime.js: Animations were created using anime.js and the star burst was modified from Alex Zaworski.
 - Sound Fonts: Grand piano music notes were created by jobro (www.freesound.org).
 - Youtube: Source for song notes.
 

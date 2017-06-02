@@ -25,7 +25,7 @@ canvas {
   display: flex;
   width: 100%;
   height: auto;
-  border: 5px solid #002db3;
+  /*border: 5px solid #002db3;*/
 }
 
 .side-bar {
@@ -87,11 +87,23 @@ canvas {
 
 .keyboard-pic {
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   margin-right: 10px;
   margin-left: 10px;
   width: 90%;
   align-items: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.github {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  align-self: center;
 }
 
 .logo {
