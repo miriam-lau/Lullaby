@@ -1,4 +1,4 @@
-[Lullaby](https://mypantry.herokuapp.com/#/) is a personal project by Meiyen Lau.
+[Lullaby](index.html) is a personal project by Meiyen Lau.
 
 Lullaby is an interactive music site where users can play popular children's
 lullaby tunes using the computer keyboard.
