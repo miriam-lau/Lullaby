@@ -1,9 +1,18 @@
 [Lullaby](https://miriam-lau.github.io/Javascript-Project/) is a personal project by Meiyen Lau.
 
-Lullaby is an interactive music site where users can play popular children's
+Lullaby is an interactive music site where users can play popular
 lullaby tunes using the computer keyboard.
 
-![game page](./docs/gamepage.png)
+![game page](./docs/game_page.png)
+
+
+
+## Instructions
+1. Choose a song you would like to play on the left side-bar.
+2. Follow the computer keys on the display to play the lullaby song.
+3. Choose a different song by clicking on another selection.
+4. Choose free-style play by closing the song page.  
+
 
 
 ## Features
@@ -12,12 +21,14 @@ lullaby tunes using the computer keyboard.
 - Each song will have a song page showing the sequence of computer keys to play the chosen song.
 - Each key press will trigger a star burst animation shown randomly on the screen.
 
-![song page](./docs/songpage.png)
+![song page](./docs/song_page.png)
+
 
 
 ## Project Design
-Lullaby was designed and built in four days. A [proposal](./docs/proposal/development_README.md) was drafted with an implementation timeline
+A [proposal](./docs/proposal/development_README.md) was drafted with an implementation timeline
 during the development process.
+
 
 
 ## Technology
@@ -26,6 +37,7 @@ Lullaby is a website created using JavaScript, HTML and CSS. Additional frontend
 - Anime.js: Animations were created using anime.js and the star burst was modified from Alex Zaworski.
 - Sound Fonts: Grand piano music notes were created by jobro (www.freesound.org).
 - Youtube: Source for song notes.
+
 
 
 ## Future Implementations
