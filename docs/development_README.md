@@ -15,17 +15,16 @@ Users can press keyboard keys to play piano notes.
 - Seed songs: Site will have a selection of lullaby songs for the user to choose.
 Selected song will be displayed on the screen with the sequence of key
 presses for the user to play the song.
-- User can start and stop the song.
 
 
 ## Wireframes
 The site will be a single screen.
-- Side bar: Users can hit play and stop. Users can select a song. Links
-to About (modal) and Github.
-- Main screen: Once a song is selected, the song keys will be displayed
-on the screen for the user to follow. The main screen will have falling
-dots, and when a key is pressed, little star bursts will be interspersed
-between the falling dots.
+- Side bar: Users can select a song and play instructions will be
+displayed.
+- Main screen: Backdrop will be a night sky with stars.  Once a song is
+selected, the song page will be displayed on the screen for the user to
+follow. When a key is pressed, little star bursts will be randomly
+generated on the screen.
 
 ![lullaby-wireframe](./lullaby.png)
 
@@ -33,7 +32,8 @@ between the falling dots.
 ## Architecture and Technologies
 This project will include the following technologies:
 - Overall structure and game logic: Vanilla JavaScript and jquery
-- Piano key sounds: midi.js
+- Piano key sounds: Buzz JavaScript library for integrating audio and
+soundfonts from jobro (www.freesound.org) for the piano note sounds.
 - DOM manipulation and rendering: HTML5 and Canvas
 - Small animation effects: anime.js
 - Module bundler: webpack

@@ -3,11 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Lullaby</title>
+
     <link rel="stylesheet" type="text/css" href="assets/display.css" />
     <script src="jquery.js"></script>
     <script src="ui.jquery.js"></script>
     <script src="http://jaysalvat.github.io/buzz/releases/latest/buzz.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Coming+Soon|Margarine|Roboto|Short+Stack" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Baloo|Caveat+Brush|Gloria+Hallelujah|Gochi+Hand|Indie+Flower|Patrick+Hand|Schoolbell|Sunshiney" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -20,25 +23,31 @@
 
     <div class="container">
       <div class="side-bar">
-        <div class="logo"></div>
         <div class="song-container">
-
-          <h3 class="song-title">Songs</h3>
-          <button class="song-selection" value="1" onClick="display.showSong(this)" >Are You Sleeping?</button>
+          <h3 class="song-selection-title">Songs</h3>
+          <button class="song-selection" value="1"
+            onClick="display.showSong(this)" >Are You Sleeping?</button>
           <br />
-          <button class="song-selection" value="2" onClick="display.showSong(this)" >Baa Baa Black Sheep</button>
+          <button class="song-selection" value="2"
+            onClick="display.showSong(this)" >Baa Baa Black Sheep</button>
           <br />
-          <button class="song-selection" value="3" onClick="display.showSong(this)" >Baby Mine</button>
+          <button class="song-selection" value="3"
+            onClick="display.showSong(this)" >Baby Mine</button>
           <br />
-          <button class="song-selection" value="4" onClick="display.showSong(this)" >Brahm's Lullaby</button>
+          <button class="song-selection" value="4"
+            onClick="display.showSong(this)" >Brahm's Lullaby</button>
           <br />
-          <button class="song-selection" value="5" onClick="display.showSong(this)" >Hush Little Baby</button>
+          <button class="song-selection" value="5"
+            onClick="display.showSong(this)" >Hush Little Baby</button>
           <br />
-          <button class="song-selection" value="6" onClick="display.showSong(this)" >Rock-A-Bye Baby</button>
+          <button class="song-selection" value="6"
+            onClick="display.showSong(this)" >Rock-A-Bye Baby</button>
           <br />
-          <button class="song-selection" value="7" onClick="display.showSong(this)" >Somewhere Over The Rainbow</button>
+          <button class="song-selection" value="7"
+            onClick="display.showSong(this)" >Somewhere Over The Rainbow</button>
           <br />
-          <button class="song-selection" value="8" onClick="display.showSong(this)" >Twinkle Twinkle Little Star</button>
+          <button class="song-selection" value="8"
+            onClick="display.showSong(this)" >Twinkle Twinkle Little Star</button>
           <br />
         </div>
 
@@ -54,8 +63,15 @@
 
       <canvas class="canvas" id="canvas"></canvas>
 
+      <div class="logo">
+        <span class="note"><img id="note" src="./assets/images/note.png" /></span>
+        <span class="logo-name">Lullaby</span>
+      </div>
+
       <div id="song-display">
-        <button class="close-song-display" onClick="display.removeSong(this)">X</button>
+        <div id="close-song-div">
+          <button id="close-song-display" onClick="display.removeSong(this)">X</button>
+        </div>
         <div id="song-notes">
         </div>
       </div>

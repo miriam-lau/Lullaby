@@ -11,6 +11,11 @@ footer, section, input, p, select, option {
   background: transparent;
 }
 
+body {
+  width: 100%;
+  margin: auto;
+}
+
 canvas {
   background-image: url("./images/milky_way.jpg");
   background-size: 100% 100%;
@@ -32,10 +37,19 @@ canvas {
   flex-grow: 1;
 }
 
+.song-selection-title {
+  font-family: 'Baloo';
+  font-size: 25px;
+  color: #002db3;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
 .song-selection {
   cursor: pointer;
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-family: 'Baloo';
+  font-size: 16px;
   align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -51,9 +65,8 @@ canvas {
 }
 
 .instructions {
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  font-weight: 900;
+  font-family: 'Baloo';
+  font-size: 18px;
   align-items: center;
   margin-top: 10px;
   padding-bottom: 10px;
@@ -62,9 +75,9 @@ canvas {
 }
 
 .instructions1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 900;
+  font-family: 'Baloo';
+  font-size: 25px;
+  color: #002db3;
   align-items: center;
   margin-top: 50px;
   padding-bottom: 10px;
@@ -81,34 +94,75 @@ canvas {
   align-items: center;
 }
 
+.logo {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  display: inline-block;
+  width: 325px;
+  height: 120px;
+  z-index: 1;
+}
+
+.logo-name {
+  font-family: 'Baloo';
+  font-size: 75px;
+  color: white;
+  vertical-align: -webkit-baseline-middle;
+  top: 300px;
+  padding-right: 10px;
+  width: 250px;
+  z-index: 1;
+}
+
+img#note {
+  width: 50px;
+  padding-left: 10px;
+  height: auto;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+img#note:hover {
+  transform: rotate(15deg);
+  transition: 0.4s;
+}
+
 div#song-display {
   position: absolute;
   background-color: white;
   border-radius: 5px;
   padding: 5px;
-  top: 0;
-  left: 800px;
+  top: -550px;
+  left: 0;
   z-index: 1;
   color: black;
   width: 400px;
-  height: 500px;
-  /*align-content: center;*/
+  height: auto;
   margin: auto;
-  /*opacity: 0;*/
-  transition: top 1s;
+  opacity: 0;
+  transition: opacity 2s, top 2s;
 }
 
 div#song-display.active {
   top: 200px;
-  left: 800px;
+  left: 0;
   z-index: 1;
   opacity: 1;
 }
 
+div#song-notes {
+  padding-bottom: 20px;
+}
+
+.song-line {
+  text-align: center;
+}
+
 .song-title {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  font-size: 20px;
+  font-family: 'Baloo';
+  font-size: 30px;
+  color: #002db3;
   text-align: center;
   margin-bottom: 10px;
   margin-top: 20px;
@@ -116,9 +170,8 @@ div#song-display.active {
 
 .song-letter {
   display: inline-block;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 900;
+  font-family: 'Baloo';
+  font-size: 25px;
   color: black;
   width: 20px;
   height: 20px;
@@ -136,21 +189,33 @@ div#song-display.active {
   margin-left: 5px;
 }
 
-.close-song-display {
-  align-self: flex-end;
-  font-family: 'Roboto', sans-serif;
+div#close-song-div {
+  height: 15px;
+}
+
+button#close-song-display {
+  float: right;
+  font-family: 'Baloo';
   font-size: 16px;
   font-weight: 900;
-  width: 20px;
-  height: 20px;
-  padding: 10px;
-  margin-left: 5px;
+  width: auto;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+button#close-song-display:hover {
+  color: red;
 }
 
 /*blue:	#002db3*/
 
 /*
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Gochi Hand', cursive;
+font-family: 'Schoolbell', cursive;
 font-family: 'Coming Soon', cursive;
-
-
 font-family: 'Roboto', sans-serif;*/
