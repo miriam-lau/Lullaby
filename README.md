@@ -3,7 +3,7 @@
 Lullaby is an interactive music site where users can play popular children's
 lullaby tunes using the computer keyboard.
 
-![game page](./gamepage.png)
+![game page](./docs/gamepage.png)
 
 
 ## Features
@@ -12,11 +12,11 @@ lullaby tunes using the computer keyboard.
 - Each song will have a song page showing the sequence of computer keys to play the chosen song.
 - Each key press will trigger a star burst animation shown randomly on the screen.
 
-![song page](./songpage.png)
+![song page](./docs/songpage.png)
 
 
 ## Project Design
-Lullaby was designed and built in four days. A [proposal](./docs/development_README.md) was drafted with an implementation timeline
+Lullaby was designed and built in four days. A [proposal](./docs/proposal/development_README.md) was drafted with an implementation timeline
 during the development process.
 
 
@@ -30,4 +30,4 @@ Lullaby is a website created using JavaScript, HTML and CSS. Additional frontend
 
 ## Future Implementations
 New features and future implementations are listed in this
-[outline](./future_implementations.md).
+[outline](./docs/future_implementations.md).
