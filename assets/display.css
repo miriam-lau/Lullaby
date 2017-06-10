@@ -64,9 +64,29 @@ canvas {
   width: 100%;
 }
 
-.instructions {
+.instruction-header {
   font-family: 'Baloo';
   font-size: 18px;
+  align-items: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.instruction-header1 {
+  font-family: 'Baloo';
+  font-size: 16px;
+  align-items: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.instruction-text {
+  font-family: 'Baloo';
+  font-size: 14px;
   align-items: center;
   margin-top: 10px;
   padding-bottom: 10px;
