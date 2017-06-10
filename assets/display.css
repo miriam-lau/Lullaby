@@ -121,14 +121,12 @@ div#instruction-display.visible {
 .hand-controls {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .keyboard-pic {
   margin-top: 10px;
   margin-bottom: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
   width: 90%;
   align-items: center;
 }
@@ -136,8 +134,6 @@ div#instruction-display.visible {
 .right-hand, .left-hand {
   margin-top: 10px;
   margin-bottom: 20px;
-  margin-right: 48px;
-  margin-left: 45px;
 }
 
 .hand-controls-pic {
