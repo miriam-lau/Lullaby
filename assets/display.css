@@ -83,6 +83,31 @@ canvas {
   padding-bottom: 10px;
   width: 100%;
   text-align: center;
+  border-radius: 1px solid #002db3;
+  cursor: pointer;
+}
+
+.instructions1:hover {
+  background-color: #002db3;
+  color: white;
+  border-radius: 1px solid #002db3;
+}
+
+div#instruction-display {
+  font-family: 'Baloo';
+  font-size: 25px;
+  color: #002db3;
+  align-items: center;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+}
+
+div#instruction-display.visible {
+  opacity: 1;
+  z-index: 1;
 }
 
 .keyboard-pic {
@@ -213,7 +238,7 @@ div#close-song-div {
   height: 15px;
 }
 
-button#close-song-display {
+button#close {
   float: right;
   font-family: 'Baloo';
   font-size: 16px;
@@ -226,9 +251,11 @@ button#close-song-display {
   cursor: pointer;
 }
 
-button#close-song-display:hover {
+button#close:hover {
   color: red;
 }
+
+
 
 /*blue:	#002db3*/
 

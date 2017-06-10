@@ -5,8 +5,7 @@
     <title>Lullaby</title>
 
     <link rel="stylesheet" type="text/css" href="assets/display.css" />
-    <script src="jquery.js"></script>
-    <script src="ui.jquery.js"></script>
+
     <script src="http://jaysalvat.github.io/buzz/releases/latest/buzz.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Coming+Soon|Margarine|Roboto|Short+Stack" rel="stylesheet">
 
@@ -18,7 +17,7 @@
 
   <body>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/1.0.0/anime.min.js'></script>
-    <script src="anime.min.js"></script>
+
     <script type="application/javascript" src="lib/bundle.js"></script>
 
     <div class="container">
@@ -51,7 +50,9 @@
           <br />
         </div>
 
-        <button class="instructions1" onClick="display.showInstructions()">Instructions</button>
+        <button class="instructions1"
+          onClick="display.showInstructions()">Instructions
+        </button>
 
         <footer>
           <a href=https://github.com/miriam-lau/Javascript-Project>
@@ -62,6 +63,8 @@
       </div>
 
       <div id="instruction-display">
+        <button id="close" onClick="display.removeInstructions()">X</button>
+
         <img class="keyboard-pic" src="./assets/images/keyboard.png" />
 
         <section class="instructions">Right Hand Controls</section>
@@ -80,7 +83,7 @@
 
       <div id="song-display">
         <div id="close-song-div">
-          <button id="close-song-display" onClick="display.removeSong(this)">X</button>
+          <button id="close" onClick="display.removeSong()">X</button>
         </div>
         <div id="song-notes">
         </div>
