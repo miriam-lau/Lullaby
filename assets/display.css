@@ -103,7 +103,7 @@ div#instruction-display {
   font-size: 25px;
   color: #002db3;
   align-items: center;
-  left: 0;
+  left: 300px;
   padding-bottom: 10px;
   width: 100%;
   text-align: center;
@@ -112,9 +112,15 @@ div#instruction-display {
 }
 
 div#instruction-display.visible {
-  left: 0;
+  left: 300px;
   opacity: 1;
   z-index: 2;
+}
+
+.hand-controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .keyboard-pic {
@@ -123,6 +129,16 @@ div#instruction-display.visible {
   margin-right: 10px;
   margin-left: 10px;
   width: 90%;
+  align-items: center;
+}
+
+.hand-controls-pic {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  max-height: 200px;
+  width: auto;
   align-items: center;
 }
 

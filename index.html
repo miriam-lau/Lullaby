@@ -64,14 +64,20 @@
 
       <div id="instruction-display">
         <button id="close" onClick="display.removeInstructions()">X</button>
-
+        <h3 class="instruction-header">Instructions</h3>
         <img class="keyboard-pic" src="./assets/images/keyboard.png" />
 
-        <section class="instructions">Right Hand Controls</section>
-        <img class="keyboard-pic" src="./assets/images/right_hand.png" />
+        <div class="hand-controls">
+          <section class="right-hand">
+            <section class="instructions">Right Hand Controls</section>
+            <img class="hand-controls-pic" src="./assets/images/right_hand.png" />
+          </section>
 
-        <section class="instructions">Left Hand Controls</section>
-        <img class="keyboard-pic" src="./assets/images/left_hand.png" />
+          <section class="left-hand">
+            <section class="instructions">Left Hand Controls</section>
+            <img class="hand-controls-pic" src="./assets/images/left_hand.png" />
+          </section>
+        </div>
       </div>
 
       <canvas class="canvas" id="canvas"></canvas>
