@@ -112,7 +112,7 @@ div#instruction-display {
 }
 
 div#instruction-display.visible {
-  top: 100px;
+  top: 50px;
   left: 50%;
   opacity: 1;
   z-index: 2;
@@ -133,12 +133,15 @@ div#instruction-display.visible {
   align-items: center;
 }
 
-.hand-controls-pic {
+.right-hand, .left-hand {
   margin-top: 10px;
   margin-bottom: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
-  max-height: 200px;
+  margin-right: 48px;
+  margin-left: 45px;
+}
+
+.hand-controls-pic {
+  max-height: 150px;
   width: auto;
   align-items: center;
 }
