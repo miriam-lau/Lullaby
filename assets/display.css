@@ -100,6 +100,7 @@ canvas {
   margin-top: 50px;
   padding-bottom: 10px;
   width: 100%;
+  padding-top: 10px;
   text-align: center;
   border-radius: 1px solid #002db3;
   cursor: pointer;
