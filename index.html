@@ -64,20 +64,29 @@
 
       <div id="instruction-display">
         <button id="close" onClick="display.removeInstructions()">X</button>
-        <h3 class="instruction-header">Instructions</h3>
+        <h2 class="instruction-header">Instructions</h2>
+
+        <h3 class="instruction-header">Hand Controls</h3>
         <img class="keyboard-pic" src="./assets/images/keyboard.png" />
 
         <div class="hand-controls">
           <section class="right-hand">
-            <section class="instructions">Right Hand Controls</section>
+            <section class="instructions">Right Hand</section>
             <img class="hand-controls-pic" src="./assets/images/right_hand.png" />
           </section>
 
           <section class="left-hand">
-            <section class="instructions">Left Hand Controls</section>
+            <section class="instructions">Left Hand</section>
             <img class="hand-controls-pic" src="./assets/images/left_hand.png" />
           </section>
         </div>
+
+        <section class="">
+          <h3 class="instruction-header">Free-Style Play</h3>
+          <p>Use the highlighted keys in the hand controls to play your own tune.</p>
+        </section>
+
+        
       </div>
 
       <canvas class="canvas" id="canvas"></canvas>
