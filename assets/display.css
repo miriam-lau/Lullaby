@@ -66,7 +66,7 @@ canvas {
 
 .instruction-header {
   font-family: 'Baloo';
-  font-size: 18px;
+  font-size: 25px;
   align-items: center;
   margin-top: 10px;
   padding-bottom: 10px;
@@ -76,7 +76,7 @@ canvas {
 
 .instruction-header1 {
   font-family: 'Baloo';
-  font-size: 16px;
+  font-size: 22px;
   align-items: center;
   margin-top: 10px;
   padding-bottom: 10px;
@@ -86,7 +86,7 @@ canvas {
 
 .instruction-text {
   font-family: 'Baloo';
-  font-size: 14px;
+  font-size: 16px;
   align-items: center;
   margin-top: 10px;
   padding-bottom: 10px;
