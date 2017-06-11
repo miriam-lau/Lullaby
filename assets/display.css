@@ -126,7 +126,8 @@ div#instruction-display {
   font-size: 25px;
   color: #002db3;
   align-items: center;
-  left: 30%;
+  left: 41%;
+  margin: auto;
   padding-bottom: 10px;
   width: 600px;
   text-align: center;
@@ -135,8 +136,7 @@ div#instruction-display {
 }
 
 div#instruction-display.visible {
-  top: 50px;
-  left: 30%;
+  top: 100px;
   opacity: 1;
   z-index: 2;
 }
