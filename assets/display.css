@@ -128,7 +128,7 @@ div#instruction-display {
   align-items: center;
   left: 30%;
   padding-bottom: 10px;
-  width: 900px;
+  width: 700px;
   text-align: center;
   opacity: 0;
   z-index: -1;
@@ -150,7 +150,7 @@ div#instruction-display.visible {
 .keyboard-pic {
   margin-top: 10px;
   margin-bottom: 20px;
-  width: 90%;
+  width: 75%;
   align-items: center;
 }
 
