@@ -288,11 +288,11 @@ div#close-song-div {
 button#close {
   float: right;
   font-family: 'Baloo';
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 900;
   width: auto;
   height: auto;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 5px;
   padding-right: 10px;
   cursor: pointer;
