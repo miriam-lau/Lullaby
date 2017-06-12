@@ -13,6 +13,8 @@ lullaby tunes using the computer keyboard.
 3. Choose a different song by clicking on another selection.
 4. Choose free-style play by closing the song page.  
 
+![instruction page](./docs/instruction_page.png)
+
 
 
 ## Features
@@ -21,7 +23,7 @@ lullaby tunes using the computer keyboard.
 - Each song will have a song page showing the sequence of computer keys to play the chosen song.
 - Each key press will trigger a star burst animation shown randomly on the screen.
 
-![song page](./docs/song_page.png)
+![song page](./docs/song_display_page.png)
 
 
 
