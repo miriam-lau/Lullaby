@@ -64,7 +64,7 @@ for (let i = 0; i < 32; i++) {
 ```
 
 
-- Youtube: Source for song notes.
+- Youtube: Source for song notes. Songs were saved as lines in a nested array, and each line contains a series of notes mapped to computer keys.
 
 
 
