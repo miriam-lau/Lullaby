@@ -48,7 +48,7 @@ $(document).keydown( function(event) {
 });
 ```
 
-- Anime.js: Animations were created using anime.js and the star burst was modified from Alex Zaworski's Color Changin' animation. Animations were created from a collection of circles, randomized by color and position within a fixed radius. The collection of circles were saved in an array, and anime.js was used to create the effect of movement for a set time interval before removing the animation.
+- Anime.js: Animations were created using anime.js and the star burst was modified from Alex Zaworski's animation. Each star burst was created from a collection of circles, randomized by color and position within a fixed radius. The collection of circles were saved in an array, and anime.js was used to simulate the effect of movement for a set time interval before removing the animation.
 
 ```js
 let particles = [];
