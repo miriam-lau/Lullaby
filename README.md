@@ -20,7 +20,7 @@ lullaby tunes using the computer keyboard.
 ## Features
 - Users can freestyle play and press keyboard keys to play piano notes.
 - Users can choose from a collection of songs to play.
-- Each song will have a song page showing the sequence of computer keys to play the chosen song.
+- Each song will have a song page showing the sequence of computer keys to play the chosen song. Upon song selection, the song display appears to guide the user to play the song.
 - Each key press will trigger several star burst animations shown randomly on the screen.
 
 ![song page](./docs/song_display_page.png)
