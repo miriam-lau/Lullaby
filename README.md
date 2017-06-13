@@ -38,16 +38,14 @@ Lullaby is a website created using JavaScript, HTML and CSS. Additional frontend
 - Sounds: To create sounds, Buzz, JavaScript library was used for playing sounds on the website, and sound fonts simulating grand piano music notes were from by jobro (www.freesound.org). Computer keys were mapped to each sound font and upon a keydown event, the Buzz library played the associated sound font.
 
 ```js
-let particles = [];
-for (let i = 0; i < 32; i++) {
-  let particle = new Circle({
-    x: xCoord,
-    y: yCoord,
-    fill: color[Math.floor(Math.random() * 3)],
-    r: anime.random(1, 5)
-  })
-  particles.push(particle);
-}
+$(document).keydown( function(event) {
+  let key = event.originalEvent.keyCode;
+  if (sounds.has(key)) {
+    let sound = sounds.get(key);
+    let soundPlay = new buzz.sound(sound);
+    soundPlay.play();
+  }
+});
 ```
 
 - Anime.js: Animations were created using anime.js and the star burst was modified from Alex Zaworski. Animations were created from a collection of circles,
