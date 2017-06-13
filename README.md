@@ -35,7 +35,21 @@ during the development process.
 
 ## Technology
 Lullaby is a website created using JavaScript, HTML and CSS. Additional frontend technologies include:
-- Buzz: A JavaScript library for playing sounds on the website.
+- Sounds: To create sounds, Buzz, JavaScript library was used for playing sounds on the website, and sound fonts simulating grand piano music notes were from by jobro (www.freesound.org). Computer keys were mapped to each sound font and upon a keydown event, the Buzz library played the associated sound font.
+
+```js
+let particles = [];
+for (let i = 0; i < 32; i++) {
+  let particle = new Circle({
+    x: xCoord,
+    y: yCoord,
+    fill: color[Math.floor(Math.random() * 3)],
+    r: anime.random(1, 5)
+  })
+  particles.push(particle);
+}
+```
+
 - Anime.js: Animations were created using anime.js and the star burst was modified from Alex Zaworski. Animations were created from a collection of circles,
 randomized by color and position within a fixed radius. The collection of circles were saved in an array, and anime.js was used to create the effect of movement for a
 set time interval before removing the animation.
@@ -53,7 +67,7 @@ for (let i = 0; i < 32; i++) {
 }
 ```
 
-- Sound Fonts: Grand piano music notes were created by jobro (www.freesound.org).
+
 - Youtube: Source for song notes.
 
 
