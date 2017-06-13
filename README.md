@@ -37,8 +37,7 @@ during the development process.
 Lullaby is a website created using JavaScript, HTML and CSS. Additional frontend technologies include:
 - Buzz: A JavaScript library for playing sounds on the website.
 - Anime.js: Animations were created using anime.js and the star burst was modified from Alex Zaworski. Animations were created from a collection of circles,
-randomized by color and position. The collection of circles were saved in
-an array, and anime.js was used to create the effect of movement for a
+randomized by color and position within a fixed radius. The collection of circles were saved in an array, and anime.js was used to create the effect of movement for a
 set time interval before removing the animation.
 
 ```js
