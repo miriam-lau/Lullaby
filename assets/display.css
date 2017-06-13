@@ -215,7 +215,6 @@ img#note {
   width: 50px;
   padding-left: 10px;
   height: auto;
-  cursor: pointer;
   transition: 0.4s;
 }
 
