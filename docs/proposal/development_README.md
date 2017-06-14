@@ -28,6 +28,8 @@ generated on the screen.
 
 ![lullaby-wireframe](./lullaby.png)
 
+![instructions-wireframe](./instructions.png)
+
 
 ## Architecture and Technologies
 This project will include the following technologies:
