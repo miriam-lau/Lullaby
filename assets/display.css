@@ -1,3 +1,5 @@
+/*blue:	#002db3*/
+
 html, form, div, label, body, h1, h2, h3, ul, li,
 table, tr, th, a, header, nav, span, button,
 footer, section, input, p, select, option {
@@ -18,7 +20,10 @@ body {
 
 canvas {
   background-image: url("./images/milky_way.jpg");
-  background-size: 100% 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -28,7 +33,6 @@ canvas {
   display: flex;
   width: 100%;
   height: auto;
-  /*border: 5px solid #002db3;*/
 }
 
 .side-bar {
@@ -308,15 +312,3 @@ button#close {
 button#close:hover {
   color: red;
 }
-
-
-
-/*blue:	#002db3*/
-
-/*
-font-family: 'Gloria Hallelujah', cursive;
-font-family: 'Patrick Hand', cursive;
-font-family: 'Gochi Hand', cursive;
-font-family: 'Schoolbell', cursive;
-font-family: 'Coming Soon', cursive;
-font-family: 'Roboto', sans-serif;*/
