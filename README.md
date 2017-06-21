@@ -3,7 +3,7 @@
 Lullaby is an interactive music site where users can play popular
 lullaby tunes using the computer keyboard.
 
-![game page](./docs/game_page.png)
+![game page](./docs/game_page1.png)
 
 
 
@@ -13,7 +13,7 @@ lullaby tunes using the computer keyboard.
 3. Choose a different song by clicking on another selection.
 4. Choose free-style play by closing the song page.  
 
-![instruction page](./docs/instruction_page.png)
+![instruction page](./docs/instructions.png)
 
 
 
@@ -23,7 +23,7 @@ lullaby tunes using the computer keyboard.
 - Each song will have a song page showing the sequence of computer keys to play the chosen song. Upon song selection, the song display appears to guide the user to play the song.
 - Each key press will trigger several star burst animations shown randomly on the screen.
 
-![song page](./docs/song_display_page.png)
+![song page](./docs/song_display.png)
 
 
 
