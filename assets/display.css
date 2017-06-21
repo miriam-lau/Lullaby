@@ -47,12 +47,17 @@ canvas {
 .side-bar-logo {
   width: 300px;
   background-color: #002db3;
-  padding: 20px;
+  padding: 25px 0 25px 0;
+  background: #002db3; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#002db3, #b3d1ff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#002db3, #b3d1ff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#002db3, #b3d1ff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#002db3, #b3d1ff); /* Standard syntax */
 }
 
 .side-bar-logo-name {
   font-family: 'Baloo';
-  font-size: 25px;
+  font-size: 37px;
   color: white;
   vertical-align: -webkit-baseline-middle;
   /*padding-right: 10px;*/
@@ -61,10 +66,11 @@ canvas {
 }
 
 img#side-bar-note {
-  width: 16px;
+  width: 25px;
   padding-left: 10px;
   height: auto;
   transition: 0.4s;
+  margin-left: 50px;
 }
 
 .song-selection-title {
@@ -73,7 +79,7 @@ img#side-bar-note {
   color: #002db3;
   text-align: center;
   margin-bottom: 10px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .song-selection {
