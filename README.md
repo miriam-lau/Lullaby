@@ -3,7 +3,7 @@
 Lullaby is an interactive music site where users can play popular
 lullaby tunes using the computer keyboard.
 
-![game page](./docs/game_page1.png)
+![game page](./docs/game_page.png)
 
 
 
