@@ -13,7 +13,7 @@ lullaby tunes using the computer keyboard.
 3. Choose a different song by clicking on another selection.
 4. Choose free-style play by closing the song page.  
 
-![instruction page](./docs/instructions1.png)
+![instructions](./docs/instructions4.png =50x)
 
 
 
