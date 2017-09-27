@@ -36,8 +36,8 @@ canvas {
 }
 
 .side-bar {
-  max-width: 300px;
-  min-width: 300px;
+  max-width: 270px;
+  min-width: 270px;
 }
 
 .screen {
@@ -45,7 +45,6 @@ canvas {
 }
 
 .side-bar-logo {
-  width: 300px;
   background-color: #002db3;
   padding: 25px 0 25px 0;
   background: #002db3; /* For browsers that do not support gradients */
@@ -64,7 +63,6 @@ canvas {
 
 img#side-bar-note {
   width: 25px;
-  padding-left: 10px;
   height: auto;
   transition: 0.4s;
   margin-left: 50px;
@@ -84,11 +82,13 @@ img#side-bar-note {
   font-family: 'Baloo';
   font-size: 16px;
   align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding: 10px 20px;
   width: 100%;
+  border-top: 2px solid #002db3;
+}
+
+.song-selection:last-child {
+  border-bottom: 2px solid #002db3;
 }
 
 .song-selection:hover {
@@ -126,24 +126,31 @@ img#side-bar-note {
   text-align: center;
 }
 
+.instructions-wrapper {
+  background: #002db3; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#002db3, #b3d1ff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#002db3, #b3d1ff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#002db3, #b3d1ff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#002db3, #b3d1ff); /* Standard syntax */
+}
+
 .instructions1 {
   font-family: 'Baloo';
   font-size: 25px;
-  color: #002db3;
+  color: white;
   align-items: center;
   margin-top: 20px;
   padding-bottom: 10px;
   width: 100%;
   padding-top: 10px;
   text-align: center;
-  border-radius: 1px solid #002db3;
+  transition: 1s;
   cursor: pointer;
 }
 
 .instructions1:hover {
-  background-color: #002db3;
-  color: white;
-  border-radius: 1px solid #002db3;
+  transform: scale3d(1.5);
+  transition: 1s;
 }
 
 .instruction-song-play {
