@@ -70,23 +70,28 @@ img#side-bar-note {
 
 .song-selection-title {
   font-family: 'Baloo';
-  font-size: 25px;
+  font-size: 30px;
   color: #002db3;
   text-align: center;
   margin-bottom: 10px;
   margin-top: 30px;
 }
 
+.song-container {
+  padding: 0 20px;
+}
+
 .song-selection, .song-selection-last {
   cursor: pointer;
   font-family: 'Baloo';
-  font-size: 16px;
+  font-size: 14px;
   color: #002db3;
-  align-items: center;
-  padding: 10px 20px;
-  width: 100%;
-  border-top: 2px solid #002db3;
-  background: white; /* For browsers that do not support gradients */
+  padding: 10px 15px;
+  margin-bottom: -2px;
+  width: 230px;
+  border-radius: 10px;
+  border: 2px solid #002db3;
+  background: #b3d1ff; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(white, #b3d1ff); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(white, #b3d1ff); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(white, #b3d1ff); /* For Firefox 3.6 to 15 */
@@ -98,69 +103,62 @@ img#side-bar-note {
 }
 
 .song-selection:hover, .song-selection-last:hover {
-  background-color: #002db3;
-  color: white;
-  width: 100%;
+  transform: scale(1.05);
+  box-shadow: 7px 7px 3px #888888;
+  transition: 0.2s;
 }
 
 .instruction-header {
   font-family: 'Baloo';
-  font-size: 25px;
+  font-size: 30px;
   align-items: center;
   margin-top: 5px;
-  padding-bottom: 10px;
   width: 100%;
   text-align: center;
 }
 
-.instruction-header1 {
+.instruction-section-header {
   font-family: 'Baloo';
-  font-size: 22px;
-  align-items: center;
-  margin-top: 30px;
-  padding-bottom: 10px;
-  width: 100%;
+  font-size: 20px;
+  margin: 30px 30px 0 30px;
+  padding: 5px;
   text-align: center;
+  background-color: #b3d1ff;
+  border-radius: 7px;
+}
+
+.instruction-text, .instruction-text-keyboard {
+  font-family: 'Baloo';
+  font-size: 15px;
+  align-items: center;
+  margin: 0 50px;
+  text-align: center;
+  color: black;
 }
 
 .instruction-text {
-  font-family: 'Baloo';
-  font-size: 16px;
-  align-items: center;
-  margin-left: 30px;
-  margin-right: 30px;
-  text-align: center;
-  color: #002db3
+  padding-top: 10px;
+}
+
+.instruction-text-keyboard {
+  padding-top: 20px;
 }
 
 .instructions-button {
   font-family: 'Baloo';
-  font-size: 25px;
-  color: white;
-  background-color: #002db3;
-  border: 2px solid #002db3;
-  border-radius: 10px;
-  margin: 20px 0 0 45px;
+  font-size: 30px;
+  color: #002db3;
+  margin: 45px 0 0 43px;
   width: 180px;
   padding: 10px 0 6px 0;
   text-align: center;
   transition: 1s;
   cursor: pointer;
-  background: #002db3; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#b3d1ff, #002db3); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#b3d1ff, #002db3); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#b3d1ff, #002db3); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#b3d1ff, #002db3); /* Standard syntax */
 }
 
 .instructions-button:hover {
-  color: #002db3;
-  background: white; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(white, #b3d1ff); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(white, #b3d1ff); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(white, #b3d1ff); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(white, #b3d1ff); /* Standard syntax */
-  border: 2px solid #002db3;
+  transform: scale(1.1);
+  text-shadow: 5px 5px 2.5px #888888;
 }
 
 .instruction-song-play {
@@ -186,7 +184,7 @@ div#instruction-display {
 }
 
 div#instruction-display.visible {
-  top: 100px;
+  top: 35px;
   opacity: 1;
   z-index: 2;
 }
@@ -195,12 +193,12 @@ div#instruction-display.visible {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin: 0 40px 10px 40px;
 }
 
 .keyboard-pic {
   margin-top: 5px;
-  margin-bottom: 20px;
-  width: 90%;
+  width: 450px;
   align-items: center;
 }
 
@@ -211,7 +209,7 @@ div#instruction-display.visible {
 .hand-controls-pic {
   margin-top: 10px;
   max-height: 120px;
-  width: auto;
+  width: 220px;
   align-items: center;
 }
 
