@@ -44,9 +44,10 @@ canvas {
   flex-grow: 1;
 }
 
+/* sidebar logo */
 .side-bar-logo {
   background-color: #002db3;
-  padding: 25px 0 25px 0;
+  padding: 25px 0 15px 0;
   background: #002db3; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(#002db3, #b3d1ff); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#002db3, #b3d1ff); /* For Opera 11.1 to 12.0 */
@@ -59,6 +60,7 @@ canvas {
   font-size: 37px;
   color: white;
   vertical-align: -webkit-baseline-middle;
+  text-shadow: 3px 3px 1px black;
 }
 
 img#side-bar-note {
@@ -66,36 +68,48 @@ img#side-bar-note {
   height: auto;
   transition: 0.4s;
   margin-left: 50px;
+  transform: rotate(15deg);
+}
+
+
+/* Song selection */
+.song-container {
+  padding: 30px 20px;
+  border-top: 5px solid #002db3;
+  border-bottom: 5px solid #002db3;
 }
 
 .song-selection-title {
   font-family: 'Baloo';
-  font-size: 30px;
+  font-size: 25px;
   color: #002db3;
   text-align: center;
-  margin-bottom: 10px;
-  margin-top: 30px;
-}
-
-.song-container {
-  padding: 0 20px;
+  margin-bottom: 15px;
 }
 
 .song-selection, .song-selection-last {
   cursor: pointer;
   font-family: 'Baloo';
   font-size: 14px;
-  color: #002db3;
+  color: white;
   padding: 10px 15px;
   margin-bottom: -2px;
   width: 230px;
   border-radius: 10px;
   border: 2px solid #002db3;
-  background: #b3d1ff; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(white, #b3d1ff); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(white, #b3d1ff); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(white, #b3d1ff); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(white, #b3d1ff); /* Standard syntax */
+  background: #0036e6; /* Old browsers */
+  background: -moz-linear-gradient(top, #ccd8ff 0%, #4d76ff 24%, #0036e6 50%, #3363ff 79%, #668aff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ccd8ff 0%, #4d76ff 24%, #0036e6 50%, #3363ff 79%, #668aff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ccd8ff 0%, #4d76ff 24%, #0036e6 50%, #3363ff 79%, #668aff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccd8ff', endColorstr='#668aff',GradientType=0 ); /* IE6-9 */
+
+/* buttons with no shine
+  background: #b3d1ff; //For browsers that do not support gradients
+  background: -webkit-linear-gradient(white, #b3d1ff); // For Safari 5.1 to 6.0
+  background: -o-linear-gradient(white, #b3d1ff); // For Opera 11.1 to 12.0
+  background: -moz-linear-gradient(white, #b3d1ff); // For Firefox 3.6 to 15
+  background: linear-gradient(white, #b3d1ff); // Standard syntax
+*/
 }
 
 .song-selection-last {
@@ -104,9 +118,10 @@ img#side-bar-note {
 
 .song-selection:hover, .song-selection-last:hover {
   transform: scale(1.05);
-  box-shadow: 7px 7px 3px #888888;
+  box-shadow: 5px 5px 2.5px #888888;
   transition: 0.2s;
 }
+
 
 .instruction-header {
   font-family: 'Baloo';
@@ -148,7 +163,7 @@ img#side-bar-note {
   font-family: 'Baloo';
   font-size: 30px;
   color: #002db3;
-  margin: 45px 0 0 43px;
+  margin: 20px 0 0 43px;
   width: 180px;
   padding: 10px 0 6px 0;
   text-align: center;
@@ -213,61 +228,61 @@ div#instruction-display.visible {
   align-items: center;
 }
 
-footer {
+
+/* sidebar footer */
+.footer {
   position: absolute;
   bottom: 0;
-  padding-bottom: 20px;
+  width: 220px;
+  margin: 0 25px 20px 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.github {
+.github, .linkedin {
   width: 40px;
   height: 40px;
-  margin-right: 40px;
-  margin-left: 70px;
   cursor: pointer;
   align-self: center;
+  transition: 0.5s;
 }
 
-.linkedin {
-  width: 40px;
-  height: 40px;
-  padding-left: 30px;
-  cursor: pointer;
-  align-self: center;
+.github:hover, .linkedin:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
+
+/* logo in game display */
 .logo {
   position: absolute;
   top: 300px;
   left: 0;
   display: inline-block;
-  width: 325px;
-  height: 120px;
+  width: 220px;
+  height: 70px;
   z-index: 1;
 }
 
 .logo-name {
   font-family: 'Baloo';
-  font-size: 75px;
+  font-size: 50px;
   color: white;
   vertical-align: -webkit-baseline-middle;
   top: 300px;
-  padding-right: 10px;
-  width: 250px;
   z-index: 1;
+  text-shadow: 3px 3px 1px black;
 }
 
 img#note {
-  width: 50px;
+  width: 35px;
   padding-left: 10px;
   height: auto;
-  transition: 0.4s;
-}
-
-img#note:hover {
   transform: rotate(15deg);
   transition: 0.4s;
 }
+
 
 div#song-display {
   position: absolute;
@@ -305,8 +320,7 @@ div#song-notes {
   font-size: 30px;
   color: #002db3;
   text-align: center;
-  margin-bottom: 10px;
-  margin-top: 20px;
+  margin: 20px 0 10px 0;
 }
 
 .song-letter {
@@ -316,9 +330,7 @@ div#song-notes {
   color: black;
   width: 20px;
   height: 20px;
-  padding: 0 15px 0 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 15px;
   text-align: center;
 }
 
@@ -341,9 +353,7 @@ button#close {
   font-weight: 900;
   width: auto;
   height: auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 10px;
+  padding: 5px 10px 5px 0;
   cursor: pointer;
 }
 
