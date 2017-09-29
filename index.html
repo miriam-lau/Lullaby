@@ -5,6 +5,7 @@
     <title>Lullaby</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <script src="https://jaysalvat.github.io/buzz/releases/latest/buzz.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="assets/display.css" />
@@ -47,13 +48,14 @@
           <button class="song-selection" value="7"
             onClick="display.showSong(this)" >Somewhere Over The Rainbow</button>
           <br />
-          <button class="song-selection" value="8"
+          <button class="song-selection-last" value="8"
             onClick="display.showSong(this)" >Twinkle Twinkle Little Star</button>
           <br />
         </div>
 
-        <button class="instructions1"
-          onClick="display.showInstructions()">Instructions</button>
+        <button class="instructions-button"
+          onClick="display.showInstructions()">Instructions
+        </button>
 
         <footer>
           <a href=https://github.com/miriam-lau/Javascript-Project>
@@ -76,19 +78,20 @@
         <h2 class="instruction-header">Instructions</h2>
 
         <section class="">
-          <h3 class="instruction-header1">Free-Style Play</h3>
+          <h3 class="instruction-section-header">Free-Style Play</h3>
           <p class="instruction-text">Use the highlighted keys in the
             hand controls to play your own tune.</p>
         </section>
 
         <section class="instruction-song-play">
-          <h3 class="instruction-header1">Song Selection Play</h3>
+          <h3 class="instruction-section-header">Song Selection Play</h3>
           <p class="instruction-text">In the left nav, click on a song
             to play. &nbsp; On the song display, match the
             letters to your computer keyboard to play the notes.</p>
         </section>
 
-        <h3 class="instruction-header1">Hand Controls</h3>
+        <h3 class="instruction-section-header">Hand Controls</h3>
+        <section class="instruction-text-keyboard">Keyboard Hand Placement</section>
         <img class="keyboard-pic" src="./assets/images/keyboard.png" />
 
         <div class="hand-controls">
