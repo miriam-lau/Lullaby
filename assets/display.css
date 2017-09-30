@@ -66,13 +66,11 @@ canvas {
 img#side-bar-note {
   width: 25px;
   height: auto;
-  transition: 0.4s;
   margin-left: 50px;
   transform: rotate(15deg);
 }
 
-
-/* Song selection */
+/* song selection */
 .song-container {
   padding: 30px 20px;
   border-top: 5px solid #002db3;
@@ -122,7 +120,50 @@ img#side-bar-note {
   transition: 0.2s;
 }
 
+/* sidebar instruction button */
+.instructions-button {
+  font-family: 'Baloo';
+  font-size: 30px;
+  color: #002db3;
+  margin: 20px 0 0 43px;
+  width: 180px;
+  padding: 10px 0 6px 0;
+  text-align: center;
+  transition: 1s;
+  cursor: pointer;
+}
 
+.instructions-button:hover {
+  transform: scale(1.1);
+  text-shadow: 5px 5px 2.5px #888888;
+}
+
+/* sidebar footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 220px;
+  margin: 0 25px 20px 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.github, .linkedin {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  align-self: center;
+  transition: 0.5s;
+}
+
+.github:hover, .linkedin:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+
+/* instruction modal */
 .instruction-header {
   font-family: 'Baloo';
   font-size: 30px;
@@ -159,27 +200,6 @@ img#side-bar-note {
   padding-top: 20px;
 }
 
-.instructions-button {
-  font-family: 'Baloo';
-  font-size: 30px;
-  color: #002db3;
-  margin: 20px 0 0 43px;
-  width: 180px;
-  padding: 10px 0 6px 0;
-  text-align: center;
-  transition: 1s;
-  cursor: pointer;
-}
-
-.instructions-button:hover {
-  transform: scale(1.1);
-  text-shadow: 5px 5px 2.5px #888888;
-}
-
-.instruction-song-play {
-  margin-bottom: 20px;
-}
-
 div#instruction-display {
   position: absolute;
   display: block;
@@ -190,7 +210,6 @@ div#instruction-display {
   font-size: 25px;
   color: #002db3;
   align-items: center;
-  left: 41%;
   margin: auto;
   width: 600px;
   text-align: center;
@@ -228,39 +247,11 @@ div#instruction-display.visible {
   align-items: center;
 }
 
-
-/* sidebar footer */
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 220px;
-  margin: 0 25px 20px 25px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.github, .linkedin {
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  align-self: center;
-  transition: 0.5s;
-}
-
-.github:hover, .linkedin:hover {
-  transform: scale(1.1);
-  transition: 0.5s;
-}
-
-
 /* logo in game display */
 .logo {
   position: absolute;
   top: 300px;
-  left: 0;
   display: inline-block;
-  width: 220px;
   height: 70px;
   z-index: 1;
 }
@@ -270,28 +261,23 @@ div#instruction-display.visible {
   font-size: 50px;
   color: white;
   vertical-align: -webkit-baseline-middle;
-  top: 300px;
-  z-index: 1;
   text-shadow: 3px 3px 1px black;
 }
 
 img#note {
   width: 35px;
-  padding-left: 10px;
   height: auto;
   transform: rotate(15deg);
-  transition: 0.4s;
 }
 
-
+/* song display modal */
 div#song-display {
   position: absolute;
   background-color: white;
   border-radius: 5px;
   padding: 5px;
   top: -550px;
-  left: 0;
-  z-index: 1;
+  z-index: -1;
   color: black;
   width: 400px;
   height: auto;
@@ -301,10 +287,9 @@ div#song-display {
 }
 
 div#song-display.active {
-  top: 200px;
-  left: 0;
-  z-index: 1;
+  top: 100px;
   opacity: 1;
+  z-index: 1;
 }
 
 div#song-notes {
@@ -317,7 +302,7 @@ div#song-notes {
 
 .song-title {
   font-family: 'Baloo';
-  font-size: 30px;
+  font-size: 25px;
   color: #002db3;
   text-align: center;
   margin: 20px 0 10px 0;
@@ -326,7 +311,7 @@ div#song-notes {
 .song-letter {
   display: inline-block;
   font-family: 'Baloo';
-  font-size: 25px;
+  font-size: 20px;
   color: black;
   width: 20px;
   height: 20px;
@@ -346,6 +331,7 @@ div#close-song-div {
   height: 15px;
 }
 
+/* close buttons */
 button#close {
   float: right;
   font-family: 'Baloo';
