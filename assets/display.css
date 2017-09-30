@@ -166,17 +166,16 @@ img#side-bar-note {
 /* instruction modal */
 .instruction-header {
   font-family: 'Baloo';
-  font-size: 30px;
+  font-size: 25px;
   align-items: center;
-  margin-top: 5px;
   width: 100%;
   text-align: center;
 }
 
 .instruction-section-header {
   font-family: 'Baloo';
-  font-size: 20px;
-  margin: 30px 30px 0 30px;
+  font-size: 18px;
+  margin: 25px 30px 0 30px;
   padding: 5px;
   text-align: center;
   background-color: #b3d1ff;
@@ -185,7 +184,7 @@ img#side-bar-note {
 
 .instruction-text, .instruction-text-keyboard {
   font-family: 'Baloo';
-  font-size: 15px;
+  font-size: 14px;
   align-items: center;
   margin: 0 50px;
   text-align: center;
@@ -197,7 +196,7 @@ img#side-bar-note {
 }
 
 .instruction-text-keyboard {
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 div#instruction-display {
@@ -211,7 +210,7 @@ div#instruction-display {
   color: #002db3;
   align-items: center;
   margin: auto;
-  width: 600px;
+  width: 540px;
   text-align: center;
   opacity: 0;
   z-index: -1;
@@ -227,12 +226,12 @@ div#instruction-display.visible {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 0 40px 10px 40px;
+  margin: 0 40px;
 }
 
 .keyboard-pic {
   margin-top: 5px;
-  width: 450px;
+  width: 400px;
   align-items: center;
 }
 
@@ -241,9 +240,9 @@ div#instruction-display.visible {
 }
 
 .hand-controls-pic {
-  margin-top: 10px;
-  max-height: 120px;
-  width: 220px;
+  margin-top: 5px;
+  max-height: 90px;
+  width: auto;
   align-items: center;
 }
 
