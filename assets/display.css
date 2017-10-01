@@ -25,7 +25,7 @@ canvas {
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
-  height: 100%;
+  height: auto;
   overflow: hidden;
 }
 
@@ -278,7 +278,7 @@ div#song-display {
   top: -550px;
   z-index: -1;
   color: black;
-  width: 400px;
+  width: 440px;
   height: auto;
   margin: auto;
   opacity: 0;
@@ -286,7 +286,7 @@ div#song-display {
 }
 
 div#song-display.active {
-  top: 100px;
+  top: 25px;
   opacity: 1;
   z-index: 1;
 }
@@ -310,11 +310,10 @@ div#song-notes {
 .song-letter {
   display: inline-block;
   font-family: 'Baloo';
-  font-size: 20px;
+  font-size: 14px;
   color: black;
   width: 20px;
-  height: 20px;
-  padding: 15px 15px;
+  padding: 10px 15px;
   text-align: center;
 }
 
