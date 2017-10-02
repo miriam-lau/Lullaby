@@ -166,15 +166,14 @@ img#side-bar-note {
 /* instruction modal */
 .instruction-header {
   font-family: 'Baloo';
-  font-size: 25px;
-  align-items: center;
+  font-size: 30px;
   width: 100%;
-  text-align: center;
+  padding: 0 30px;
 }
 
 .instruction-section-header {
   font-family: 'Baloo';
-  font-size: 18px;
+  font-size: 20px;
   margin: 25px 30px 0 30px;
   padding: 5px;
   text-align: center;
@@ -184,7 +183,7 @@ img#side-bar-note {
 
 .instruction-text, .instruction-text-keyboard {
   font-family: 'Baloo';
-  font-size: 14px;
+  font-size: 16px;
   align-items: center;
   margin: 0 50px;
   text-align: center;
@@ -210,14 +209,14 @@ div#instruction-display {
   color: #002db3;
   align-items: center;
   margin: auto;
-  width: 540px;
+  width: 560px;
   text-align: center;
   opacity: 0;
   z-index: -1;
 }
 
 div#instruction-display.visible {
-  top: 35px;
+  top: 100px;
   opacity: 1;
   z-index: 2;
 }
@@ -241,7 +240,7 @@ div#instruction-display.visible {
 
 .hand-controls-pic {
   margin-top: 5px;
-  max-height: 90px;
+  max-height: 100px;
   width: auto;
   align-items: center;
 }
@@ -266,6 +265,7 @@ div#instruction-display.visible {
 img#note {
   width: 35px;
   height: auto;
+  margin-left: 30px;
   transform: rotate(15deg);
 }
 
@@ -278,7 +278,7 @@ div#song-display {
   top: -550px;
   z-index: -1;
   color: black;
-  width: 440px;
+  width: 560px;
   height: auto;
   margin: auto;
   opacity: 0;
@@ -286,7 +286,7 @@ div#song-display {
 }
 
 div#song-display.active {
-  top: 25px;
+  top: 100px;
   opacity: 1;
   z-index: 1;
 }
@@ -301,19 +301,18 @@ div#song-notes {
 
 .song-title {
   font-family: 'Baloo';
-  font-size: 25px;
+  font-size: 30px;
   color: #002db3;
   text-align: center;
-  margin: 20px 0 10px 0;
-}
+  margin: 20px 0;
 
 .song-letter {
   display: inline-block;
   font-family: 'Baloo';
-  font-size: 14px;
+  font-size: 17px;
   color: black;
-  width: 20px;
-  padding: 10px 15px;
+  width: 65px;
+  padding: 10px 0;
   text-align: center;
 }
 
